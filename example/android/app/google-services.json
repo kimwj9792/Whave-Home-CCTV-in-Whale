@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "536005499995",
+    "firebase_url": "https://whaledb.firebaseio.com",
+    "project_id": "whaledb",
+    "storage_bucket": "whaledb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536005499995:android:972ceef438ffa87a5bf37e",
+        "android_client_info": {
+          "package_name": "jp.espresso3389.flutter_rtmp_publisher_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536005499995-p81npvaedl993ubcqrm40lup6ljpc6qp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVEv-j8jAaqrRiIa56hFyObnztxl5cM9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536005499995-p81npvaedl993ubcqrm40lup6ljpc6qp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
