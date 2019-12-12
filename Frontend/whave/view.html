@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1">
+    <title>WHAVE</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="https://unpkg.com/video.js/dist/video-js.css">
+    <link rel="stylesheet" href="css/whave.css">
+    <style>
+    body
+    {
+      border: 0;
+    padding: 0;
+      background-image: url('images/남색.jpg');
+       min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    }
+  </style>
+  <body style="background-color:#FFFFFF">
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html"><img src="images/home.png" width="40" height="40" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#exampleModal">팁</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4" style="color: #ffffff">Home-cctv</h1>
+    </div>
+  
+    <div id="carousel-example" class="carousel slide"  data-interval="false">
+        <ol id="v-list" class="carousel-indicators">
+<!--             <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example" data-slide-to="1"></li>
+            <li data-target="#carousel-example" data-slide-to="2"></li> -->
+        </ol>
+        <div id="v-item" class="carousel-inner">
+<!--             <div class="carousel-item active">
+                <video-js id=example-video class="embed-responsive embed-responsive-16by9 vjs-default-skin vjs-big-play-centered" data-setup='{"fluid": true}' controls>
+                    <source src="http://wj.khunet.net/live/.m3u8" type="application/x-mpegURL">
+                </video-js>
+                <div class="carousel-caption">
+                    <div class="animated fadeInDown">
+                        <h4 class="h4-responsive">Room 1</h4>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev" style="height:30px;position:absolute;top:45%">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next" style="height:30px;position:absolute;top:45%">
+            <span class="carousel-control-next-icon" aria-hidden="false"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        
+    </div>
+    <div class="text-center" style="position: relative; top: 70px;">
+    <ol id="no-video" >  
+  
+  </ol>
+</div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">TIP</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>영상이 재생이 원활하지 못할경우 새로고침을 하면됩니다.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/firebase-app.js"></script>
+    <script src="js/firebase-auth.js"></script>
+    <script src="js/firebase-firestore.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/videojs-http-streaming.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
